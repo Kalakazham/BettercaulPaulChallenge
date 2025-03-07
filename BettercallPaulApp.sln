@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BettercallPaulApp", "src\BettercallPaulApp\BettercallPaulApp.csproj", "{66898095-6283-4AE1-B78E-CAC2760A1D73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1B26F63B-A7D5-4503-A7EE-99AF8E23CF18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{98A3F1A0-7485-4801-B8A0-D5C227404E6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BettercaulPaulApp.Tests.Unit", "tests\BettercaulPaulApp.Tests.Unit\BettercaulPaulApp.Tests.Unit.csproj", "{FEDEAD50-AFA1-42DD-BEBA-71EC44A8B2E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66898095-6283-4AE1-B78E-CAC2760A1D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66898095-6283-4AE1-B78E-CAC2760A1D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66898095-6283-4AE1-B78E-CAC2760A1D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66898095-6283-4AE1-B78E-CAC2760A1D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDEAD50-AFA1-42DD-BEBA-71EC44A8B2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDEAD50-AFA1-42DD-BEBA-71EC44A8B2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDEAD50-AFA1-42DD-BEBA-71EC44A8B2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDEAD50-AFA1-42DD-BEBA-71EC44A8B2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66898095-6283-4AE1-B78E-CAC2760A1D73} = {1B26F63B-A7D5-4503-A7EE-99AF8E23CF18}
+		{FEDEAD50-AFA1-42DD-BEBA-71EC44A8B2E9} = {98A3F1A0-7485-4801-B8A0-D5C227404E6E}
+	EndGlobalSection
+EndGlobal
