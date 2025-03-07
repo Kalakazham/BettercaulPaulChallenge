@@ -13,8 +13,10 @@ public static class AddDependencies
         return new ServiceCollection()
             .AddSingleton<IReader, CsvReader>()
             .AddTransient<IParser<DailyWeatherEntry>, WeatherParser>()
+            .AddTransient<IParser<Country>, CountryParser>()
             .AddScoped<MainService>()
             .AddScoped<WeatherService>()
+            .AddScoped<CountryService>()
             .BuildServiceProvider();
     }
 }

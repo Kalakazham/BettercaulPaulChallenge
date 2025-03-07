@@ -8,31 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23416dc7-3dd0-4b56-936d-af93fa48d805" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BettercallPaulApp/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BettercallPaulApp/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BettercallPaulApp/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BettercallPaulApp/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BettercallPaulApp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BettercallPaulApp.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BettercallPaulApp.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/AddDependencies.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/BettercallPaulApp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Models/DailyWeatherEntry.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Parsers/IParser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Parsers/WeatherParser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Readers/CsvReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Readers/IReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Resources/countries.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Resources/weather.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Services/MainService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Services/WeatherService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/BettercaulPaulApp.Tests.Unit.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/CsvReaderTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/MainServiceTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/WeatherParserTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/WeatherServiceTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Models/Country.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Parsers/CountryParser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Services/CountryService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/CountryParserTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/CountryServiceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BettercallPaulApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BettercallPaulApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BettercallPaulApp/AddDependencies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BettercallPaulApp/AddDependencies.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BettercallPaulApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BettercallPaulApp/Services/MainService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Services/MainService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/MainServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/MainServiceTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +32,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3/src/coreclr/System.Private.CoreLib/src/System/Runtime/InteropServices/MemoryMarshal.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/402b2077f38742cb9b381ab9e79e493229c00/25/182956e4/ThreadLocalContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/402b2077f38742cb9b381ab9e79e493229c00/3e/b393ca3f/ExceptionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/197720eddfef21267eafbc6d908fa6f32fb83ebad5ba93635b4f3127cdb155/AssertionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/22647a7960d2619ab733924a2acfee09d32a8827c8c680a37cc4863678abec/LateBoundTestFramework.cs" root0="SKIP_HIGHLIGHTING" />
@@ -67,14 +53,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.BettercallPaulApp.executor": "Run",
+    ".NET Project.BettercallPaulApp.executor": "Debug",
     "62d2694e-b7e6-4b34-986e-6b27176bfa86.executor": "Debug",
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "XThreadsFramesViewSplitterKey": "0.42070773",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,7 +106,7 @@
       <updated>1741098487319</updated>
       <workItem from="1741098488775" duration="12865000" />
       <workItem from="1741254593042" duration="907000" />
-      <workItem from="1741330831676" duration="15313000" />
+      <workItem from="1741330831676" duration="21530000" />
     </task>
     <servers />
   </component>
@@ -131,24 +117,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/BettercallPaulApp/Services/MainService.cs</url>
-          <line>27</line>
-          <properties documentPath="C:\Users\Myrmi\RiderProjects\BettercallPaulApp\src\BettercallPaulApp\Services\MainService.cs" containingFunctionPresentation="Method 'ProcessWeatherDataToFindDayWithSmallestTemperatureSpread'">
-            <startOffsets>
-              <option value="982" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1030" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
