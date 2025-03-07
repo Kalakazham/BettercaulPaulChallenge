@@ -8,16 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23416dc7-3dd0-4b56-936d-af93fa48d805" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Models/Country.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Parsers/CountryParser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Services/CountryService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/CountryParserTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/CountryServiceTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BettercallPaulApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BettercallPaulApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BettercallPaulApp/AddDependencies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BettercallPaulApp/AddDependencies.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BettercallPaulApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BettercallPaulApp/Services/MainService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Services/MainService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/MainServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/MainServiceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BettercallPaulApp/Services/CountryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Services/CountryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BettercallPaulApp/Services/MainService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BettercallPaulApp/Services/WeatherService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/BettercallPaulApp/Services/WeatherService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/CountryServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/CountryServiceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/MainServiceTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/WeatherServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/BettercaulPaulApp.Tests.Unit/WeatherServiceTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.BettercallPaulApp.executor": "Debug",
+    ".NET Project.BettercallPaulApp.executor": "Run",
     "62d2694e-b7e6-4b34-986e-6b27176bfa86.executor": "Debug",
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -106,7 +104,7 @@
       <updated>1741098487319</updated>
       <workItem from="1741098488775" duration="12865000" />
       <workItem from="1741254593042" duration="907000" />
-      <workItem from="1741330831676" duration="21530000" />
+      <workItem from="1741330831676" duration="22804000" />
     </task>
     <servers />
   </component>

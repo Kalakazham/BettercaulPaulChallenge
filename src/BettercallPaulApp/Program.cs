@@ -3,6 +3,9 @@ using BettercallPaulApp.Services;
 using Microsoft.Extensions.DependencyInjection;
 
 var serviceProvider = AddDependencies.ConfigureServices();
-var mainService = serviceProvider.GetRequiredService<MainService>();
-mainService.ProcessWeatherDataToFindDayWithSmallestTemperatureSpread();
-mainService.ProcessCountryDataToFindHighestDensity();
+
+var weatherService = serviceProvider.GetRequiredService<WeatherService>();
+weatherService.ProcessWeatherDataToFindDayWithSmallestTemperatureSpread();
+
+var countryService = serviceProvider.GetRequiredService<CountryService>();
+countryService.ProcessCountryDataToFindHighestDensity();
